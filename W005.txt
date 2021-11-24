@@ -1,0 +1,133 @@
+#include <iostream> 
+using namespace std;
+
+int main()
+{
+    setlocale(0, "");
+    cout << "Jamah. \n Your current language: \n 1 - russian \n 2 - english \n";
+    int a;
+    cin >> a;
+    switch (a)
+    {
+    case 1:
+        cout << "Выберите слово: \n1 - Я \n2 - писал \n3 - данную \n4 - работу \n5 - до  \n6 - тех \n7 - пор \n8 - пока \n9 - окончательно \n10 - не  \n11 - сошел \n12 - с \n13 - своего \n14 - ума \n15 - при виде написанного\n";
+        int b;
+        cin >> b;
+        switch (b)
+        {
+        case 1:
+            cout << "I";
+            break;
+        case 2:
+            cout << "was";
+            break;
+        case 3:
+            cout << "wrote";
+            break;
+        case 4:
+            cout << "this";
+            break;
+        case 5:
+            cout << "work";
+            break;
+        case 6:
+            cout << "until";
+            break;
+        case 7:
+            cout << "then";
+            break;
+        case 8:
+            cout << "finally";
+            break;
+        case 9:
+            cout << "loose";
+            break;
+        case 10:
+            cout << "my";
+            break;
+        case 11:
+            cout << "pesonal";
+            break;
+        case 12:
+            cout << "mind";
+            break;
+        case 13:
+            cout << "by";
+            break;
+        case 14:
+            cout << "looking";
+            break;
+        case 15:
+            cout << "this";
+            break;
+        default:
+            cout << "Ошибка";
+            break;
+        }
+        cout << "\n Конец кода. \n";
+        break;
+    case 2:
+        cout << "Choose the word: \n1 - Can \n2 - I \n3 - was \n4 - wrote \n5 - this \n6 - work \n7 - untill \n8 - then \n9 - finally \n10 - loose \n11 - my \n12 - mind \n13 - by \n14 - looking \n15 - this \n";
+        int c;
+        cin >> c;
+        switch (c)
+        {
+        case 1:
+            cout << "Я";
+            break;
+        case 2:
+            cout << "писал";
+            break;
+        case 3:
+            cout << "данную";
+            break;
+        case 4:
+            cout << "работу";
+            break;
+        case 5:
+            cout << "до";
+            break;
+        case 6:
+            cout << "тех";
+            break;
+        case 7:
+            cout << "пор";
+            break;
+        case 8:
+            cout << "пока";
+            break;
+        case 9:
+            cout << "окончательно";
+            break;
+        case 10:
+            cout << "не";
+            break;
+        case 11:
+            cout << "сошел";
+            break;
+        case 12:
+            cout << "с";
+            break;
+        case 13:
+            cout << "своего";
+            break;
+        case 14:
+            cout << "ума";
+            break;
+        case 15:
+            cout << "при виде написанного";
+            break;
+        default:
+            cout << "Ошибка";
+            break;
+        }
+        cout << "\n End of the code. \n";
+        break;
+    default:
+        cout << "Error";
+        break;
+    }
+    
+ 
+    return 0;
+}
